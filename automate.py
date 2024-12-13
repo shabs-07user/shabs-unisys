@@ -23,7 +23,7 @@ my_select = Select(chrome_driver.find_element(By.ID,"exampleFormControlSelect1")
 my_select.select_by_index(1)
 #my_select.select_by_visible_text("Female")
 
-time.sleep(4)
+time.sleep(10)
 
 # printing title 
 print("page title : ",chrome_driver.title)
@@ -34,3 +34,5 @@ chrome_driver.save_screenshot("pagehome1.png")
 print("current page screenshot saved")
 # closing my driver / stopping  
 chrome_driver.quit()
+
+#comment
