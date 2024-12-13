@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: ashu-ui
-  name: ashu-ui
+    app: shabs-ui
+  name: shabs-ui
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ashu-ui
+      app: shabs-ui
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: ashu-ui
+        app: shabs-ui
     spec:
       containers:
       - image: adminer
