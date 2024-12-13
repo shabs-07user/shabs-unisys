@@ -24,6 +24,7 @@ my_select.select_by_index(1)
 #my_select.select_by_visible_text("Female")
 
 time.sleep(10)
+time.sleep(12)
 
 # printing title 
 print("page title : ",chrome_driver.title)
